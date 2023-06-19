@@ -10,7 +10,7 @@ import model.Professor;
 
 import javax.swing.JLabel;
 
-public class TelaProfessor extends JFrame {
+public class TelaProfessor extends JFrame {//Feito por Tomás
 
 	private JPanel contentPane;
 
@@ -35,7 +35,7 @@ public class TelaProfessor extends JFrame {
 	 */
 	public TelaProfessor() {
 		
-		/**Definindo as labels junto com seus dados*/
+		/**<br>Definindo as labels junto com seus dados*/
 		Professor professor = new Professor();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);

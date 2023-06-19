@@ -16,7 +16,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JPasswordField;
 
-public class LoginProfessor extends JFrame {
+public class LoginProfessor extends JFrame {//Feito por Tomás
 
 	private JPanel contentPane;
 	private JTextField txtCpf;
@@ -43,7 +43,7 @@ public class LoginProfessor extends JFrame {
 	 */
 	public LoginProfessor() {
 		
-		/**Definindo as labels*/
+		/**<br>Definindo as labels*/
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -69,9 +69,9 @@ public class LoginProfessor extends JFrame {
 		lblNewLabel_1.setBounds(114, 121, 46, 14);
 		contentPane.add(lblNewLabel_1);
 		
-		/**Definindo o botão de Entrar*/
+		/**<br>Definindo o botão de Entrar*/
 		JButton btnEntrar = new JButton("Entrar");
-		/**Definindo a ação do botão*/
+		/**<br>Definindo a ação do botão*/
 		btnEntrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(txtCpf.getText().isEmpty() || pswdSenha.getPassword().toString().isEmpty()) {
@@ -95,9 +95,9 @@ public class LoginProfessor extends JFrame {
 		});
 		btnEntrar.setBounds(225, 190, 117, 42);
 		contentPane.add(btnEntrar);
-		/**Definindo o botão voltar*/
+		/**<br>Definindo o botão voltar*/
 		JButton btnVoltar = new JButton("Voltar");
-		/**Definindo a ação do botão*/
+		/**<br>Definindo a ação do botão*/
 		btnVoltar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Login telaLogin = new Login();
