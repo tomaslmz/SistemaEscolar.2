@@ -49,8 +49,8 @@ public class Login extends JFrame {
 		/**<br>Criacao do Evento relacionado a botao Estudante;*/
 		btnEstudante.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				TelaAluno telaEstudante = new TelaAluno();
-				telaEstudante.setVisible(true);
+				LoginAluno loginAluno = new LoginAluno();
+				loginAluno.setVisible(true);
 			}
 		});
 		btnEstudante.setBounds(162, 110, 100, 33);
