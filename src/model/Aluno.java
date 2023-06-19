@@ -11,7 +11,7 @@ public class Aluno {
 	/**<br>CPF do Aluno;*/
 	private String cpf = "12345678978";
 	/**<br>Data de Nascimento de Aluno;*/
-	private Calendar dataNascimento;
+	private Calendar dataNascimento; // 06/01/2003 -> SENHA DO ALUNO
 	/**<br>Endereco do Aluno;*/
 	private String endereco = "Rua Cecilia Rosa Eberle, 40";//(Rua,Número,Bairro,Cidade)
 	/**<br>Telefone do Aluno;*/
