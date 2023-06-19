@@ -8,11 +8,11 @@ import javax.swing.JOptionPane;
 /**Criacao da classe professor onde iremos inserir os dados. <br>*/
 public class Professor {
 	/**Aqui iremos inserir os seguintes dados do professor:<br> Nome do professor;*/
-	private String nome;
+	private String nome = "Tomás Mendoza";
 	/**<br>Senha do professor;*/
-	private String senha;
+	private String senha = "123";
 	/**<br>CPF do professor;*/
-	private String cpf;
+	private String cpf = "11111111111";
 	/**<br>Cursos do professor;*/
 	private Curso curso;
 	/**<br>Lista de cursos do professor.*/
@@ -20,11 +20,11 @@ public class Professor {
 	/**<br>Data de nascimento do professor;*/
 	private Calendar dataNascimento;
 	/**<br>Endereco do professor;*/
-	private String endereco;
+	private String endereco = "Rua que não existe";
 	/**<br>Telefone do professor;*/
-	private String telefone;
+	private String telefone = "4799424011";
 	/**<br>Salario do professor;*/
-	private float salario;
+	private float salario = 9999;
 	
 	
 	/**<br>Agora, a classe tera os seguintes Metodos:*/
@@ -46,6 +46,11 @@ public class Professor {
     	this.setEndereco(endereco);
     	this.setSalario(salario);
     }
+    /**<br> Metodo sobrecarga vazio*/
+    public Professor() {
+    	
+    }
+    
 	/**<br>Metodo para retornar o nome do professor;*/
 	public String getNome() {
 		return nome;
