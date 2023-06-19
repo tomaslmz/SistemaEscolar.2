@@ -15,7 +15,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class LoginAluno extends JFrame {
+public class LoginAluno extends JFrame { // Feito por Gabriely Andrade
 
 	private JPanel contentPane;
 	private JPasswordField passwordAluno;

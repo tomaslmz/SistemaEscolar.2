@@ -12,7 +12,7 @@ import javax.swing.JLabel;
 /**
  * Criacao da classe TelaAluno onde sera demonstrado os dados cadastrados pelo Administrador;<br>
  * */
-public class TelaAluno extends JFrame {
+public class TelaAluno extends JFrame { // Feito por Gabriely Andrade
 
 	private JPanel contentPane;
 

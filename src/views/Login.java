@@ -12,7 +12,7 @@ import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Login extends JFrame {
+public class Login extends JFrame {// Feito por Gabriely e Tomás
 
 	private JPanel contentPane;
 
