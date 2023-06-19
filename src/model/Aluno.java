@@ -7,19 +7,19 @@ import java.util.Calendar;
 public class Aluno {
 	/**Inicio da declaração dos dados do aluno; <br>*/
 	/**<br>Nome do Aluno;*/
-	private String nome; 
+	private String nome = "Gabriely Andrade"; 
 	/**<br>CPF do Aluno;*/
-	private String cpf;
+	private String cpf = "12345678978";
 	/**<br>Data de Nascimento de Aluno;*/
 	private Calendar dataNascimento;
 	/**<br>Endereco do Aluno;*/
-	private String endereco;//(Rua,Número,Bairro,Cidade)
+	private String endereco = "Rua Cecilia Rosa Eberle, 40";//(Rua,Número,Bairro,Cidade)
 	/**<br>Telefone do Aluno;*/
-    private String telefone_aluno;//(Telefone,E-mail)
+    private String telefone_aluno = "(47) 9 12345678";//(Telefone,E-mail)
     /**<br>Nome do Responsável;*/
-    private String responsavel;
+    private String responsavel = "Cristina Andrade";
     /**<br>Telefone do Responsável;*/
-    private String telefone_responsavel;
+    private String telefone_responsavel = "(47) 9 87654321";
     /**<br>Curso do Aluno;*/
     private Curso curso;
     /**<br>Cursos do Aluno;*/
@@ -36,7 +36,10 @@ public class Aluno {
     	this.setResponsavel(responsavel);
     	this.setTelefone_responsavel(telefone_responsavel);
     }
-    /**<br> Metodo Sobrecarga;*/    
+    /**<br> Metodo Sobrecarga vazio;*/
+    public Aluno() {
+    }
+    /**<br> Metodo Sobrecarga com alguns atributos;*/    
     public Aluno(String nome, String endereco, String responsavel) {
     	this.setNome(nome);
     	this.setEndereco(endereco);
