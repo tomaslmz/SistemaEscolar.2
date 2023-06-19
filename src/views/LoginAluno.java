@@ -9,6 +9,7 @@ import javax.swing.border.EmptyBorder;
 import model.Aluno;
 
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.JButton;
@@ -78,9 +79,12 @@ public class LoginAluno extends JFrame { // Feito por Gabriely Andrade
 		/**<br>Criacao do Evento relacionado a botao Entrar;*/
 		btEntrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if (txCPF.equals(aluno.getCpf()) && passwordAluno.toString().equals(aluno.getDataNascimento()));
-				TelaAluno telaEstudante = new TelaAluno();
-				telaEstudante.setVisible(true);
+				if (txCPF.equals(aluno.getCpf()) && passwordAluno.toString().equals(aluno.getDataNascimento())) {
+					TelaAluno telaEstudante = new TelaAluno();
+					telaEstudante.setVisible(true);
+				}else {
+					JOptionPane.showMessageDialog(null, "Senha incorreta");
+				}
 			}
 		});
 		btEntrar.setBounds(256, 174, 89, 23);

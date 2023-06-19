@@ -51,6 +51,7 @@ public class Login extends JFrame {// Feito por Gabriely e Tomás
 			public void actionPerformed(ActionEvent e) {
 				LoginAluno loginAluno = new LoginAluno();
 				loginAluno.setVisible(true);
+				dispose();
 			}
 		});
 		btnEstudante.setBounds(162, 110, 100, 33);
@@ -63,6 +64,7 @@ public class Login extends JFrame {// Feito por Gabriely e Tomás
 			public void actionPerformed(ActionEvent e) {
 				LoginProfessor telaProf = new LoginProfessor();
 				telaProf.setVisible(true);
+				dispose();
 			}
 		});
 		btnProfessor.setBounds(162, 154, 100, 33);
